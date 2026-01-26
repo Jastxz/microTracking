@@ -22,18 +22,45 @@ public class EmailService {
             @Value("${tracking.notification.email:}") String notificationEmail,
             @Value("${resend.from:}") String fromEmail) {
 
+        // Logging detallado de configuración
+        System.out.println("=== EmailService Configuration ===");
+        System.out.println("API Key presente: " + (apiKey != null && !apiKey.isBlank() ? "SÍ" : "NO"));
+        System.out.println("Notification Email: " + (notificationEmail != null && !notificationEmail.isBlank()
+                ? notificationEmail
+                : "NO CONFIGURADO"));
+        System.out.println("From Email: " + (fromEmail != null && !fromEmail.isBlank()
+                ? fromEmail
+                : "NO CONFIGURADO"));
+        System.out.println("==================================");
+
         this.notificationEmail = notificationEmail;
         this.fromEmail = fromEmail;
 
-        if (apiKey != null && !apiKey.isBlank()) {
+        // Validar configuración completa
+        boolean hasApiKey = apiKey != null && !apiKey.isBlank();
+        boolean hasNotificationEmail = notificationEmail != null && !notificationEmail.isBlank();
+        boolean hasFromEmail = fromEmail != null && !fromEmail.isBlank();
+
+        if (hasApiKey && hasNotificationEmail && hasFromEmail) {
             this.webClient = webClientBuilder.baseUrl(RESEND_API_URL)
                     .defaultHeader("Authorization", "Bearer " + apiKey)
                     .defaultHeader("Content-Type", "application/json")
                     .build();
             this.isEnabled = true;
+            System.out.println("✅ EmailService habilitado correctamente");
         } else {
-            System.err.println(
-                    "⚠️ RESEND_API_KEY no configurada apropiadamente. El envío de emails estará deshabilitado.");
+            // Mensajes específicos sobre qué falta
+            System.err.println("⚠️ EmailService deshabilitado. Faltan las siguientes configuraciones:");
+            if (!hasApiKey) {
+                System.err.println("   - RESEND_API_KEY: Variable de entorno no configurada");
+            }
+            if (!hasNotificationEmail) {
+                System.err.println("   - TRACKING_NOTIFICATION_EMAIL: Variable de entorno no configurada");
+            }
+            if (!hasFromEmail) {
+                System.err.println("   - resend.from: No configurado en application.yml");
+            }
+
             this.webClient = null;
             this.isEnabled = false;
         }
