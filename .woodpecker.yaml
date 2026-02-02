@@ -33,6 +33,10 @@ steps:
         from_secret: GHCR_USERNAME
       TOKEN:
         from_secret: GHCR_TOKEN
+      TRACKING_NOTIFICATION_EMAIL:
+        from_secret: TRACKING_NOTIFICATION_EMAIL
+      RESEND_API_KEY:
+        from_secret: RESEND_API_KEY
     commands:
       - cd /srv/serviciosjavi/microtracking
       - echo "$${TOKEN}" | docker login ghcr.io -u "$${USERNAME}" --password-stdin
