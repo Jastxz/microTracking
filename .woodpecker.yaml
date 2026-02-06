@@ -4,7 +4,7 @@ when:
 
 steps:
   maven_build:
-    image: maven:3.9.11-amazoncorretto-24-al2023
+    image: maven:3.9.11-amazoncorretto-21-al2023
     commands:
       - mvn -B -ntp clean package
 
