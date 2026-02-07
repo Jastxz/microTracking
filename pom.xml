@@ -10,7 +10,7 @@
 	</parent>
 	<groupId>es.jastxz</groupId>
 	<artifactId>micro-tracking</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
+	<version>1.0</version>
 	<name>micro-tracking</name>
 	<description>Micro service for tracking visits and time spent on a website</description>
 	<url/>
@@ -71,6 +71,12 @@
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-test</artifactId>
             <scope>test</scope>
+        </dependency>
+
+        <dependency>
+            <groupId>com.resend</groupId>
+            <artifactId>resend-java</artifactId>
+            <version>4.0.0</version>
         </dependency>
     </dependencies>
     
