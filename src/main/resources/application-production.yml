@@ -42,4 +42,4 @@ tracking:
 # Enlace con Resend
 resend:
   api-key: ${RESEND_API_KEY:}
-  from: "Portafolio <portafolio@javig.org>"
+  from: "onboarding@resend.dev"
