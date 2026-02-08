@@ -1,11 +1,16 @@
 package es.jastxz.micro_tracking.service;
 
-import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Service;
 
 import com.resend.Resend;
 import com.resend.core.exception.ResendException;
 import com.resend.services.emails.model.CreateEmailOptions;
+
+import java.io.BufferedReader;
+import java.io.FileReader;
+import java.io.IOException;
+import java.util.HashMap;
+import java.util.Map;
 
 @Service
 public class EmailService {
@@ -15,26 +20,13 @@ public class EmailService {
     private final String fromEmail;
     private final boolean isEnabled;
 
-    public EmailService(
-            @Value("${resend.api-key:}") String apiKey,
-            @Value("${tracking.notification.email:}") String notificationEmail,
-            @Value("${resend.from:}") String fromEmail) {
+    public EmailService() {
+        Map<String, String> emailData = readEmailData();
+        
+        String apiKey = emailData.get("RESEND_API_KEY");
+        this.notificationEmail = emailData.get("TRACKING_NOTIFICATION_EMAIL");
+        this.fromEmail = emailData.get("FROM");
 
-        // Logging detallado de configuración
-        System.out.println("=== EmailService Configuration ===");
-        System.out.println("API Key presente: " + (apiKey != null && !apiKey.isBlank() ? "SÍ" : "NO"));
-        System.out.println("Notification Email: " + (notificationEmail != null && !notificationEmail.isBlank()
-                ? notificationEmail
-                : "NO CONFIGURADO"));
-        System.out.println("From Email: " + (fromEmail != null && !fromEmail.isBlank()
-                ? fromEmail
-                : "NO CONFIGURADO"));
-        System.out.println("==================================");
-
-        this.notificationEmail = notificationEmail;
-        this.fromEmail = fromEmail;
-
-        // Validar configuración completa
         boolean hasApiKey = apiKey != null && !apiKey.isBlank();
         boolean hasNotificationEmail = notificationEmail != null && !notificationEmail.isBlank();
         boolean hasFromEmail = fromEmail != null && !fromEmail.isBlank();
@@ -44,21 +36,29 @@ public class EmailService {
             this.isEnabled = true;
             System.out.println("✅ EmailService habilitado correctamente");
         } else {
-            // Mensajes específicos sobre qué falta
-            System.err.println("⚠️ EmailService deshabilitado. Faltan las siguientes configuraciones:");
-            if (!hasApiKey) {
-                System.err.println("   - RESEND_API_KEY: Variable de entorno no configurada");
-            }
-            if (!hasNotificationEmail) {
-                System.err.println("   - TRACKING_NOTIFICATION_EMAIL: Variable de entorno no configurada");
-            }
-            if (!hasFromEmail) {
-                System.err.println("   - resend.from: No configurado en application.yml");
-            }
-
+            System.err.println("⚠️ EmailService deshabilitado - configuración incompleta");
             this.resend = null;
             this.isEnabled = false;
         }
+    }
+
+    private Map<String, String> readEmailData() {
+        Map<String, String> data = new HashMap<>();
+        try (BufferedReader reader = new BufferedReader(new FileReader("src/main/resources/.emailData"))) {
+            String line;
+            while ((line = reader.readLine()) != null) {
+                line = line.trim();
+                if (line.isEmpty() || line.startsWith("#")) continue;
+                
+                String[] parts = line.split(":", 2);
+                if (parts.length == 2) {
+                    data.put(parts[0].trim(), parts[1].trim());
+                }
+            }
+        } catch (IOException e) {
+            System.err.println("⚠️ No se pudo leer .emailData: " + e.getMessage());
+        }
+        return data;
     }
 
     public void sendEmail(String subject, String body) {
@@ -72,7 +72,7 @@ public class EmailService {
                     .from(fromEmail)
                     .to(notificationEmail)
                     .subject(subject)
-                    .html(body)  // o .text(body) si prefieres texto plano
+                    .html(body)
                     .build();
 
             resend.emails().send(options);

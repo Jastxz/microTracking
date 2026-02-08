@@ -18,13 +18,8 @@ public class EmailServiceLocalTest {
         System.out.println("=== Test Local de EmailService ===");
         System.out.println("Iniciando envío de email de prueba...\n");
 
-        // Configuración estática para el test local
-        String apiKey = "";// Añadir Api Key para hacer pruebas
-        String toEmail = "javgilbla@proton.me";
-        String fromEmail = "Portafolio <portafolio@javig.org>";
-
         // Crear instancia del servicio con las credenciales
-        EmailService emailService = new EmailService(apiKey, toEmail, fromEmail);
+        EmailService emailService = new EmailService();
 
         // Enviar email de prueba
         String subject = "Hello World - Test Email";
@@ -36,7 +31,7 @@ public class EmailServiceLocalTest {
 
         try {
             emailService.sendEmail(subject, body);
-            System.out.println("\n✅ Test completado. Revisa tu bandeja de entrada en: " + toEmail);
+            System.out.println("\n✅ Test completado. Revisa tu bandeja de entrada.");
         } catch (Exception e) {
             System.err.println("\n❌ Error durante el test:");
             e.printStackTrace();

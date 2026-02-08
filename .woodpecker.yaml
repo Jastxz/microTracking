@@ -17,11 +17,17 @@ steps:
         from_secret: GHCR_USERNAME
       TOKEN:
         from_secret: GHCR_TOKEN
+      TRACKING_NOTIFICATION_EMAIL:
+        from_secret: TRACKING_NOTIFICATION_EMAIL
+      RESEND_API_KEY:
+        from_secret: RESEND_API_KEY
+      FROM:
+        from_secret: FROM
     commands:
       - export IMAGE="ghcr.io/$${USERNAME}/micro-tracking:latest"
       - echo "$${TOKEN}" | docker login ghcr.io -u "$${USERNAME}" --password-stdin
-      - docker build -t "$IMAGE" .
-      - docker push "$IMAGE"
+      - docker build --build-arg TRACKING_NOTIFICATION_EMAIL="$${TRACKING_NOTIFICATION_EMAIL}" --build-arg RESEND_API_KEY="$${RESEND_API_KEY}" --build-arg FROM="$${FROM}" -t "$${IMAGE}" .
+      - docker push "$${IMAGE}"
 
   deploy:
     image: docker:27-cli
@@ -33,17 +39,8 @@ steps:
         from_secret: GHCR_USERNAME
       TOKEN:
         from_secret: GHCR_TOKEN
-      TRACKING_NOTIFICATION_EMAIL:
-        from_secret: TRACKING_NOTIFICATION_EMAIL
-      RESEND_API_KEY:
-        from_secret: RESEND_API_KEY
     commands:
       - cd /srv/serviciosjavi/microtracking
       - echo "$${TOKEN}" | docker login ghcr.io -u "$${USERNAME}" --password-stdin
-      - |
-        cat > .env << EOF
-        TRACKING_NOTIFICATION_EMAIL=$${TRACKING_NOTIFICATION_EMAIL}
-        RESEND_API_KEY=$${RESEND_API_KEY}
-        EOF
       - docker compose pull
       - docker compose up -d
