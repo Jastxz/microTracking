@@ -3,6 +3,11 @@ package es.jastxz.micro_tracking.service;
 import es.jastxz.micro_tracking.model.IpInfoResponse;
 import es.jastxz.micro_tracking.model.TimeData;
 import es.jastxz.micro_tracking.model.VisitorData;
+
+import java.time.LocalDate;
+import java.time.format.DateTimeFormatter;
+import java.util.Locale;
+
 import org.springframework.scheduling.annotation.Async;
 import org.springframework.stereotype.Service;
 import org.springframework.web.client.RestTemplate;
@@ -25,7 +30,10 @@ public class TrackingService {
         IpInfoResponse ipInfo = getIpInfo(clientIp);
 
         // Construir email
-        String subject = "🔔 Nuevo visitante en tu CV";
+        LocalDate fecha = LocalDate.now();
+        DateTimeFormatter formatter = DateTimeFormatter.ofPattern("dd/MMMM/yyyy", Locale.of("es", "ES"));
+        String fechaFormateada = fecha.format(formatter);
+        String subject = "🔔 Nuevo visitante en tu CV | " + fechaFormateada;
         String body = buildEmailBody(data, clientIp, ipInfo);
 
         // Enviar email
