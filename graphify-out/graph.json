@@ -1,0 +1,1357 @@
+{
+  "directed": false,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "settings.json",
+      "file_type": "code",
+      "source_file": ".vscode/settings.json",
+      "source_location": "L1",
+      "id": "vscode_settings",
+      "community": 6,
+      "norm_label": "settings.json"
+    },
+    {
+      "label": "java.configuration.updateBuildConfiguration",
+      "file_type": "code",
+      "source_file": ".vscode/settings.json",
+      "source_location": "L2",
+      "id": "vscode_settings_java_configuration_updatebuildconfiguration",
+      "community": 6,
+      "norm_label": "java.configuration.updatebuildconfiguration"
+    },
+    {
+      "label": "java.compile.nullAnalysis.mode",
+      "file_type": "code",
+      "source_file": ".vscode/settings.json",
+      "source_location": "L3",
+      "id": "vscode_settings_java_compile_nullanalysis_mode",
+      "community": 6,
+      "norm_label": "java.compile.nullanalysis.mode"
+    },
+    {
+      "label": "MicroTrackingApplication.java",
+      "file_type": "code",
+      "source_file": "src/main/java/es/jastxz/micro_tracking/MicroTrackingApplication.java",
+      "source_location": "L1",
+      "id": "micro_tracking_microtrackingapplication",
+      "community": 4,
+      "norm_label": "microtrackingapplication.java"
+    },
+    {
+      "label": "MicroTrackingApplication",
+      "file_type": "code",
+      "source_file": "src/main/java/es/jastxz/micro_tracking/MicroTrackingApplication.java",
+      "source_location": "L7",
+      "id": "micro_tracking_microtrackingapplication_microtrackingapplication",
+      "community": 4,
+      "norm_label": "microtrackingapplication"
+    },
+    {
+      "label": ".main()",
+      "file_type": "code",
+      "source_file": "src/main/java/es/jastxz/micro_tracking/MicroTrackingApplication.java",
+      "source_location": "L11",
+      "id": "micro_tracking_microtrackingapplication_microtrackingapplication_main",
+      "community": 4,
+      "norm_label": ".main()"
+    },
+    {
+      "label": "String",
+      "file_type": "code",
+      "source_file": "src/main/java/es/jastxz/micro_tracking/MicroTrackingApplication.java",
+      "source_location": "L11",
+      "id": "src_main_java_es_jastxz_micro_tracking_microtrackingapplication_java_string",
+      "community": 4,
+      "norm_label": "string"
+    },
+    {
+      "label": "TrackingController.java",
+      "file_type": "code",
+      "source_file": "src/main/java/es/jastxz/micro_tracking/controller/TrackingController.java",
+      "source_location": "L1",
+      "id": "controller_trackingcontroller",
+      "community": 0,
+      "norm_label": "trackingcontroller.java"
+    },
+    {
+      "label": "TrackingController",
+      "file_type": "code",
+      "source_file": "src/main/java/es/jastxz/micro_tracking/controller/TrackingController.java",
+      "source_location": "L14",
+      "id": "controller_trackingcontroller_trackingcontroller",
+      "community": 0,
+      "norm_label": "trackingcontroller"
+    },
+    {
+      "label": ".TrackingController()",
+      "file_type": "code",
+      "source_file": "src/main/java/es/jastxz/micro_tracking/controller/TrackingController.java",
+      "source_location": "L20",
+      "id": "controller_trackingcontroller_trackingcontroller_trackingcontroller",
+      "community": 0,
+      "norm_label": ".trackingcontroller()"
+    },
+    {
+      "label": "TrackingService",
+      "file_type": "code",
+      "source_file": "src/main/java/es/jastxz/micro_tracking/controller/TrackingController.java",
+      "source_location": "L20",
+      "id": "trackingservice",
+      "community": 0,
+      "norm_label": "trackingservice"
+    },
+    {
+      "label": ".trackVisit()",
+      "file_type": "code",
+      "source_file": "src/main/java/es/jastxz/micro_tracking/controller/TrackingController.java",
+      "source_location": "L24",
+      "id": "controller_trackingcontroller_trackingcontroller_trackvisit",
+      "community": 0,
+      "norm_label": ".trackvisit()"
+    },
+    {
+      "label": "VisitorData",
+      "file_type": "code",
+      "source_file": "src/main/java/es/jastxz/micro_tracking/controller/TrackingController.java",
+      "source_location": "L24",
+      "id": "src_main_java_es_jastxz_micro_tracking_controller_trackingcontroller_java_visitordata",
+      "community": 0,
+      "norm_label": "visitordata"
+    },
+    {
+      "label": "HttpServletRequest",
+      "file_type": "code",
+      "source_file": "src/main/java/es/jastxz/micro_tracking/controller/TrackingController.java",
+      "source_location": "L24",
+      "id": "httpservletrequest",
+      "community": 0,
+      "norm_label": "httpservletrequest"
+    },
+    {
+      "label": "ResponseEntity",
+      "file_type": "code",
+      "source_file": "src/main/java/es/jastxz/micro_tracking/controller/TrackingController.java",
+      "source_location": "L24",
+      "id": "responseentity",
+      "community": 0,
+      "norm_label": "responseentity"
+    },
+    {
+      "label": "Void",
+      "file_type": "code",
+      "source_file": "src/main/java/es/jastxz/micro_tracking/controller/TrackingController.java",
+      "source_location": "L24",
+      "id": "void",
+      "community": 0,
+      "norm_label": "void"
+    },
+    {
+      "label": "PostMapping",
+      "file_type": "code",
+      "source_file": "src/main/java/es/jastxz/micro_tracking/controller/TrackingController.java",
+      "source_location": "L24",
+      "id": "postmapping",
+      "community": 0,
+      "norm_label": "postmapping"
+    },
+    {
+      "label": ".trackTime()",
+      "file_type": "code",
+      "source_file": "src/main/java/es/jastxz/micro_tracking/controller/TrackingController.java",
+      "source_location": "L36",
+      "id": "controller_trackingcontroller_trackingcontroller_tracktime",
+      "community": 0,
+      "norm_label": ".tracktime()"
+    },
+    {
+      "label": "TimeData",
+      "file_type": "code",
+      "source_file": "src/main/java/es/jastxz/micro_tracking/controller/TrackingController.java",
+      "source_location": "L36",
+      "id": "src_main_java_es_jastxz_micro_tracking_controller_trackingcontroller_java_timedata",
+      "community": 0,
+      "norm_label": "timedata"
+    },
+    {
+      "label": ".getClientIp()",
+      "file_type": "code",
+      "source_file": "src/main/java/es/jastxz/micro_tracking/controller/TrackingController.java",
+      "source_location": "L42",
+      "id": "controller_trackingcontroller_trackingcontroller_getclientip",
+      "community": 0,
+      "norm_label": ".getclientip()"
+    },
+    {
+      "label": "String",
+      "file_type": "code",
+      "source_file": "src/main/java/es/jastxz/micro_tracking/controller/TrackingController.java",
+      "source_location": "L42",
+      "id": "src_main_java_es_jastxz_micro_tracking_controller_trackingcontroller_java_string",
+      "community": 0,
+      "norm_label": "string"
+    },
+    {
+      "label": "IpInfoResponse.java",
+      "file_type": "code",
+      "source_file": "src/main/java/es/jastxz/micro_tracking/model/IpInfoResponse.java",
+      "source_location": "L1",
+      "id": "model_ipinforesponse",
+      "community": 7,
+      "norm_label": "ipinforesponse.java"
+    },
+    {
+      "label": "IpInfoResponse",
+      "file_type": "code",
+      "source_file": "src/main/java/es/jastxz/micro_tracking/model/IpInfoResponse.java",
+      "source_location": "L7",
+      "id": "model_ipinforesponse_ipinforesponse",
+      "community": 7,
+      "norm_label": "ipinforesponse"
+    },
+    {
+      "label": "TimeData.java",
+      "file_type": "code",
+      "source_file": "src/main/java/es/jastxz/micro_tracking/model/TimeData.java",
+      "source_location": "L1",
+      "id": "model_timedata",
+      "community": 8,
+      "norm_label": "timedata.java"
+    },
+    {
+      "label": "TimeData",
+      "file_type": "code",
+      "source_file": "src/main/java/es/jastxz/micro_tracking/model/TimeData.java",
+      "source_location": "L5",
+      "id": "model_timedata_timedata",
+      "community": 8,
+      "norm_label": "timedata"
+    },
+    {
+      "label": "VisitorData.java",
+      "file_type": "code",
+      "source_file": "src/main/java/es/jastxz/micro_tracking/model/VisitorData.java",
+      "source_location": "L1",
+      "id": "model_visitordata",
+      "community": 9,
+      "norm_label": "visitordata.java"
+    },
+    {
+      "label": "VisitorData",
+      "file_type": "code",
+      "source_file": "src/main/java/es/jastxz/micro_tracking/model/VisitorData.java",
+      "source_location": "L5",
+      "id": "model_visitordata_visitordata",
+      "community": 9,
+      "norm_label": "visitordata"
+    },
+    {
+      "label": "EmailService.java",
+      "file_type": "code",
+      "source_file": "src/main/java/es/jastxz/micro_tracking/service/EmailService.java",
+      "source_location": "L1",
+      "id": "service_emailservice",
+      "community": 2,
+      "norm_label": "emailservice.java"
+    },
+    {
+      "label": "EmailService",
+      "file_type": "code",
+      "source_file": "src/main/java/es/jastxz/micro_tracking/service/EmailService.java",
+      "source_location": "L15",
+      "id": "service_emailservice_emailservice",
+      "community": 2,
+      "norm_label": "emailservice"
+    },
+    {
+      "label": ".EmailService()",
+      "file_type": "code",
+      "source_file": "src/main/java/es/jastxz/micro_tracking/service/EmailService.java",
+      "source_location": "L23",
+      "id": "service_emailservice_emailservice_emailservice",
+      "community": 2,
+      "norm_label": ".emailservice()"
+    },
+    {
+      "label": ".readEmailData()",
+      "file_type": "code",
+      "source_file": "src/main/java/es/jastxz/micro_tracking/service/EmailService.java",
+      "source_location": "L45",
+      "id": "service_emailservice_emailservice_reademaildata",
+      "community": 2,
+      "norm_label": ".reademaildata()"
+    },
+    {
+      "label": "Map",
+      "file_type": "code",
+      "source_file": "src/main/java/es/jastxz/micro_tracking/service/EmailService.java",
+      "source_location": "L45",
+      "id": "map",
+      "community": 2,
+      "norm_label": "map"
+    },
+    {
+      "label": "String",
+      "file_type": "code",
+      "source_file": "src/main/java/es/jastxz/micro_tracking/service/EmailService.java",
+      "source_location": "L45",
+      "id": "src_main_java_es_jastxz_micro_tracking_service_emailservice_java_string",
+      "community": 2,
+      "norm_label": "string"
+    },
+    {
+      "label": ".sendEmail()",
+      "file_type": "code",
+      "source_file": "src/main/java/es/jastxz/micro_tracking/service/EmailService.java",
+      "source_location": "L64",
+      "id": "service_emailservice_emailservice_sendemail",
+      "community": 2,
+      "norm_label": ".sendemail()"
+    },
+    {
+      "label": "TrackingService.java",
+      "file_type": "code",
+      "source_file": "src/main/java/es/jastxz/micro_tracking/service/TrackingService.java",
+      "source_location": "L1",
+      "id": "service_trackingservice",
+      "community": 1,
+      "norm_label": "trackingservice.java"
+    },
+    {
+      "label": "TrackingService",
+      "file_type": "code",
+      "source_file": "src/main/java/es/jastxz/micro_tracking/service/TrackingService.java",
+      "source_location": "L15",
+      "id": "service_trackingservice_trackingservice",
+      "community": 1,
+      "norm_label": "trackingservice"
+    },
+    {
+      "label": ".TrackingService()",
+      "file_type": "code",
+      "source_file": "src/main/java/es/jastxz/micro_tracking/service/TrackingService.java",
+      "source_location": "L22",
+      "id": "service_trackingservice_trackingservice_trackingservice",
+      "community": 3,
+      "norm_label": ".trackingservice()"
+    },
+    {
+      "label": "EmailService",
+      "file_type": "code",
+      "source_file": "src/main/java/es/jastxz/micro_tracking/service/TrackingService.java",
+      "source_location": "L22",
+      "id": "emailservice",
+      "community": 3,
+      "norm_label": "emailservice"
+    },
+    {
+      "label": ".processVisit()",
+      "file_type": "code",
+      "source_file": "src/main/java/es/jastxz/micro_tracking/service/TrackingService.java",
+      "source_location": "L27",
+      "id": "service_trackingservice_trackingservice_processvisit",
+      "community": 1,
+      "norm_label": ".processvisit()"
+    },
+    {
+      "label": "VisitorData",
+      "file_type": "code",
+      "source_file": "src/main/java/es/jastxz/micro_tracking/service/TrackingService.java",
+      "source_location": "L27",
+      "id": "src_main_java_es_jastxz_micro_tracking_service_trackingservice_java_visitordata",
+      "community": 1,
+      "norm_label": "visitordata"
+    },
+    {
+      "label": "String",
+      "file_type": "code",
+      "source_file": "src/main/java/es/jastxz/micro_tracking/service/TrackingService.java",
+      "source_location": "L27",
+      "id": "src_main_java_es_jastxz_micro_tracking_service_trackingservice_java_string",
+      "community": 1,
+      "norm_label": "string"
+    },
+    {
+      "label": "Async",
+      "file_type": "code",
+      "source_file": "src/main/java/es/jastxz/micro_tracking/service/TrackingService.java",
+      "source_location": "L27",
+      "id": "async",
+      "community": 1,
+      "norm_label": "async"
+    },
+    {
+      "label": ".processTimeSpent()",
+      "file_type": "code",
+      "source_file": "src/main/java/es/jastxz/micro_tracking/service/TrackingService.java",
+      "source_location": "L43",
+      "id": "service_trackingservice_trackingservice_processtimespent",
+      "community": 1,
+      "norm_label": ".processtimespent()"
+    },
+    {
+      "label": "TimeData",
+      "file_type": "code",
+      "source_file": "src/main/java/es/jastxz/micro_tracking/service/TrackingService.java",
+      "source_location": "L43",
+      "id": "src_main_java_es_jastxz_micro_tracking_service_trackingservice_java_timedata",
+      "community": 1,
+      "norm_label": "timedata"
+    },
+    {
+      "label": ".getIpInfo()",
+      "file_type": "code",
+      "source_file": "src/main/java/es/jastxz/micro_tracking/service/TrackingService.java",
+      "source_location": "L49",
+      "id": "service_trackingservice_trackingservice_getipinfo",
+      "community": 1,
+      "norm_label": ".getipinfo()"
+    },
+    {
+      "label": "IpInfoResponse",
+      "file_type": "code",
+      "source_file": "src/main/java/es/jastxz/micro_tracking/service/TrackingService.java",
+      "source_location": "L49",
+      "id": "ipinforesponse",
+      "community": 1,
+      "norm_label": "ipinforesponse"
+    },
+    {
+      "label": ".buildEmailBody()",
+      "file_type": "code",
+      "source_file": "src/main/java/es/jastxz/micro_tracking/service/TrackingService.java",
+      "source_location": "L72",
+      "id": "service_trackingservice_trackingservice_buildemailbody",
+      "community": 1,
+      "norm_label": ".buildemailbody()"
+    },
+    {
+      "label": ".parseUserAgent()",
+      "file_type": "code",
+      "source_file": "src/main/java/es/jastxz/micro_tracking/service/TrackingService.java",
+      "source_location": "L113",
+      "id": "service_trackingservice_trackingservice_parseuseragent",
+      "community": 1,
+      "norm_label": ".parseuseragent()"
+    },
+    {
+      "label": "EmailServiceLocalTest.java",
+      "file_type": "code",
+      "source_file": "src/test/java/es/jastxz/micro_tracking/EmailServiceLocalTest.java",
+      "source_location": "L1",
+      "id": "micro_tracking_emailservicelocaltest",
+      "community": 3,
+      "norm_label": "emailservicelocaltest.java"
+    },
+    {
+      "label": "EmailServiceLocalTest",
+      "file_type": "code",
+      "source_file": "src/test/java/es/jastxz/micro_tracking/EmailServiceLocalTest.java",
+      "source_location": "L15",
+      "id": "micro_tracking_emailservicelocaltest_emailservicelocaltest",
+      "community": 3,
+      "norm_label": "emailservicelocaltest"
+    },
+    {
+      "label": ".main()",
+      "file_type": "code",
+      "source_file": "src/test/java/es/jastxz/micro_tracking/EmailServiceLocalTest.java",
+      "source_location": "L17",
+      "id": "micro_tracking_emailservicelocaltest_emailservicelocaltest_main",
+      "community": 3,
+      "norm_label": ".main()"
+    },
+    {
+      "label": "String",
+      "file_type": "code",
+      "source_file": "src/test/java/es/jastxz/micro_tracking/EmailServiceLocalTest.java",
+      "source_location": "L17",
+      "id": "src_test_java_es_jastxz_micro_tracking_emailservicelocaltest_java_string",
+      "community": 3,
+      "norm_label": "string"
+    },
+    {
+      "label": "MicroTrackingApplicationTests.java",
+      "file_type": "code",
+      "source_file": "src/test/java/es/jastxz/micro_tracking/MicroTrackingApplicationTests.java",
+      "source_location": "L1",
+      "id": "micro_tracking_microtrackingapplicationtests",
+      "community": 5,
+      "norm_label": "microtrackingapplicationtests.java"
+    },
+    {
+      "label": "MicroTrackingApplicationTests",
+      "file_type": "code",
+      "source_file": "src/test/java/es/jastxz/micro_tracking/MicroTrackingApplicationTests.java",
+      "source_location": "L6",
+      "id": "micro_tracking_microtrackingapplicationtests_microtrackingapplicationtests",
+      "community": 5,
+      "norm_label": "microtrackingapplicationtests"
+    },
+    {
+      "label": ".contextLoads()",
+      "file_type": "code",
+      "source_file": "src/test/java/es/jastxz/micro_tracking/MicroTrackingApplicationTests.java",
+      "source_location": "L9",
+      "id": "micro_tracking_microtrackingapplicationtests_microtrackingapplicationtests_contextloads",
+      "community": 5,
+      "norm_label": ".contextloads()"
+    },
+    {
+      "label": "Test",
+      "file_type": "code",
+      "source_file": "src/test/java/es/jastxz/micro_tracking/MicroTrackingApplicationTests.java",
+      "source_location": "L9",
+      "id": "test",
+      "community": 5,
+      "norm_label": "test"
+    }
+  ],
+  "links": [
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".vscode/settings.json",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "vscode_settings",
+      "target": "vscode_settings_java_compile_nullanalysis_mode",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": ".vscode/settings.json",
+      "source_location": "L2",
+      "weight": 1.0,
+      "source": "vscode_settings",
+      "target": "vscode_settings_java_configuration_updatebuildconfiguration",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/es/jastxz/micro_tracking/MicroTrackingApplication.java",
+      "source_location": "L7",
+      "weight": 1.0,
+      "source": "micro_tracking_microtrackingapplication",
+      "target": "micro_tracking_microtrackingapplication_microtrackingapplication",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/es/jastxz/micro_tracking/MicroTrackingApplication.java",
+      "source_location": "L11",
+      "weight": 1.0,
+      "source": "micro_tracking_microtrackingapplication_microtrackingapplication",
+      "target": "micro_tracking_microtrackingapplication_microtrackingapplication_main",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/es/jastxz/micro_tracking/MicroTrackingApplication.java",
+      "source_location": "L11",
+      "weight": 1.0,
+      "context": "parameter_type",
+      "source": "micro_tracking_microtrackingapplication_microtrackingapplication_main",
+      "target": "src_main_java_es_jastxz_micro_tracking_microtrackingapplication_java_string",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/es/jastxz/micro_tracking/controller/TrackingController.java",
+      "source_location": "L14",
+      "weight": 1.0,
+      "source": "controller_trackingcontroller",
+      "target": "controller_trackingcontroller_trackingcontroller",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/es/jastxz/micro_tracking/controller/TrackingController.java",
+      "source_location": "L12",
+      "weight": 1.0,
+      "source": "controller_trackingcontroller",
+      "target": "httpservletrequest",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/es/jastxz/micro_tracking/controller/TrackingController.java",
+      "source_location": "L4",
+      "weight": 1.0,
+      "source": "controller_trackingcontroller",
+      "target": "postmapping",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/es/jastxz/micro_tracking/controller/TrackingController.java",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "controller_trackingcontroller",
+      "target": "responseentity",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/es/jastxz/micro_tracking/controller/TrackingController.java",
+      "source_location": "L10",
+      "weight": 1.0,
+      "source": "controller_trackingcontroller",
+      "target": "src_main_java_es_jastxz_micro_tracking_controller_trackingcontroller_java_timedata",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/es/jastxz/micro_tracking/controller/TrackingController.java",
+      "source_location": "L9",
+      "weight": 1.0,
+      "source": "controller_trackingcontroller",
+      "target": "src_main_java_es_jastxz_micro_tracking_controller_trackingcontroller_java_visitordata",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/es/jastxz/micro_tracking/controller/TrackingController.java",
+      "source_location": "L11",
+      "weight": 1.0,
+      "source": "controller_trackingcontroller",
+      "target": "trackingservice",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/es/jastxz/micro_tracking/controller/TrackingController.java",
+      "source_location": "L42",
+      "weight": 1.0,
+      "source": "controller_trackingcontroller_trackingcontroller",
+      "target": "controller_trackingcontroller_trackingcontroller_getclientip",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/es/jastxz/micro_tracking/controller/TrackingController.java",
+      "source_location": "L20",
+      "weight": 1.0,
+      "source": "controller_trackingcontroller_trackingcontroller",
+      "target": "controller_trackingcontroller_trackingcontroller_trackingcontroller",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/es/jastxz/micro_tracking/controller/TrackingController.java",
+      "source_location": "L36",
+      "weight": 1.0,
+      "source": "controller_trackingcontroller_trackingcontroller",
+      "target": "controller_trackingcontroller_trackingcontroller_tracktime",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/es/jastxz/micro_tracking/controller/TrackingController.java",
+      "source_location": "L24",
+      "weight": 1.0,
+      "source": "controller_trackingcontroller_trackingcontroller",
+      "target": "controller_trackingcontroller_trackingcontroller_trackvisit",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/es/jastxz/micro_tracking/controller/TrackingController.java",
+      "source_location": "L20",
+      "weight": 1.0,
+      "context": "parameter_type",
+      "source": "controller_trackingcontroller_trackingcontroller_trackingcontroller",
+      "target": "trackingservice",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/es/jastxz/micro_tracking/controller/TrackingController.java",
+      "source_location": "L30",
+      "weight": 1.0,
+      "source": "controller_trackingcontroller_trackingcontroller_trackvisit",
+      "target": "controller_trackingcontroller_trackingcontroller_getclientip",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/es/jastxz/micro_tracking/controller/TrackingController.java",
+      "source_location": "L24",
+      "weight": 1.0,
+      "context": "parameter_type",
+      "source": "controller_trackingcontroller_trackingcontroller_trackvisit",
+      "target": "httpservletrequest",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/es/jastxz/micro_tracking/controller/TrackingController.java",
+      "source_location": "L24",
+      "weight": 1.0,
+      "context": "attribute",
+      "source": "controller_trackingcontroller_trackingcontroller_trackvisit",
+      "target": "postmapping",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/es/jastxz/micro_tracking/controller/TrackingController.java",
+      "source_location": "L24",
+      "weight": 1.0,
+      "context": "return_type",
+      "source": "controller_trackingcontroller_trackingcontroller_trackvisit",
+      "target": "responseentity",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "src/main/java/es/jastxz/micro_tracking/controller/TrackingController.java",
+      "source_location": "L31",
+      "weight": 1.0,
+      "source": "controller_trackingcontroller_trackingcontroller_trackvisit",
+      "target": "service_trackingservice_trackingservice_processvisit"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/es/jastxz/micro_tracking/controller/TrackingController.java",
+      "source_location": "L24",
+      "weight": 1.0,
+      "context": "parameter_type",
+      "source": "controller_trackingcontroller_trackingcontroller_trackvisit",
+      "target": "src_main_java_es_jastxz_micro_tracking_controller_trackingcontroller_java_visitordata",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/es/jastxz/micro_tracking/controller/TrackingController.java",
+      "source_location": "L24",
+      "weight": 1.0,
+      "context": "generic_arg",
+      "source": "controller_trackingcontroller_trackingcontroller_trackvisit",
+      "target": "void",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/es/jastxz/micro_tracking/controller/TrackingController.java",
+      "source_location": "L42",
+      "weight": 1.0,
+      "context": "parameter_type",
+      "source": "controller_trackingcontroller_trackingcontroller_getclientip",
+      "target": "httpservletrequest",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/es/jastxz/micro_tracking/controller/TrackingController.java",
+      "source_location": "L36",
+      "weight": 1.0,
+      "context": "return_type",
+      "source": "controller_trackingcontroller_trackingcontroller_tracktime",
+      "target": "responseentity",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/es/jastxz/micro_tracking/controller/TrackingController.java",
+      "source_location": "L36",
+      "weight": 1.0,
+      "context": "generic_arg",
+      "source": "controller_trackingcontroller_trackingcontroller_tracktime",
+      "target": "void",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/es/jastxz/micro_tracking/controller/TrackingController.java",
+      "source_location": "L36",
+      "weight": 1.0,
+      "context": "attribute",
+      "source": "controller_trackingcontroller_trackingcontroller_tracktime",
+      "target": "postmapping",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "src/main/java/es/jastxz/micro_tracking/controller/TrackingController.java",
+      "source_location": "L38",
+      "weight": 1.0,
+      "source": "controller_trackingcontroller_trackingcontroller_tracktime",
+      "target": "service_trackingservice_trackingservice_processtimespent"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/es/jastxz/micro_tracking/controller/TrackingController.java",
+      "source_location": "L36",
+      "weight": 1.0,
+      "context": "parameter_type",
+      "source": "controller_trackingcontroller_trackingcontroller_tracktime",
+      "target": "src_main_java_es_jastxz_micro_tracking_controller_trackingcontroller_java_timedata",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/es/jastxz/micro_tracking/controller/TrackingController.java",
+      "source_location": "L42",
+      "weight": 1.0,
+      "context": "return_type",
+      "source": "controller_trackingcontroller_trackingcontroller_getclientip",
+      "target": "src_main_java_es_jastxz_micro_tracking_controller_trackingcontroller_java_string",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/es/jastxz/micro_tracking/model/IpInfoResponse.java",
+      "source_location": "L7",
+      "weight": 1.0,
+      "source": "model_ipinforesponse",
+      "target": "model_ipinforesponse_ipinforesponse",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/es/jastxz/micro_tracking/model/TimeData.java",
+      "source_location": "L5",
+      "weight": 1.0,
+      "source": "model_timedata",
+      "target": "model_timedata_timedata",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/es/jastxz/micro_tracking/model/VisitorData.java",
+      "source_location": "L5",
+      "weight": 1.0,
+      "source": "model_visitordata",
+      "target": "model_visitordata_visitordata",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/es/jastxz/micro_tracking/service/EmailService.java",
+      "source_location": "L13",
+      "weight": 1.0,
+      "source": "service_emailservice",
+      "target": "map",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/es/jastxz/micro_tracking/service/EmailService.java",
+      "source_location": "L15",
+      "weight": 1.0,
+      "source": "service_emailservice",
+      "target": "service_emailservice_emailservice",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/es/jastxz/micro_tracking/service/EmailService.java",
+      "source_location": "L23",
+      "weight": 1.0,
+      "source": "service_emailservice_emailservice",
+      "target": "service_emailservice_emailservice_emailservice",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/es/jastxz/micro_tracking/service/EmailService.java",
+      "source_location": "L45",
+      "weight": 1.0,
+      "source": "service_emailservice_emailservice",
+      "target": "service_emailservice_emailservice_reademaildata",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/es/jastxz/micro_tracking/service/EmailService.java",
+      "source_location": "L64",
+      "weight": 1.0,
+      "source": "service_emailservice_emailservice",
+      "target": "service_emailservice_emailservice_sendemail",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/es/jastxz/micro_tracking/service/EmailService.java",
+      "source_location": "L24",
+      "weight": 1.0,
+      "source": "service_emailservice_emailservice_emailservice",
+      "target": "service_emailservice_emailservice_reademaildata",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/es/jastxz/micro_tracking/service/EmailService.java",
+      "source_location": "L45",
+      "weight": 1.0,
+      "context": "return_type",
+      "source": "service_emailservice_emailservice_reademaildata",
+      "target": "map",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/es/jastxz/micro_tracking/service/EmailService.java",
+      "source_location": "L45",
+      "weight": 1.0,
+      "context": "generic_arg",
+      "source": "service_emailservice_emailservice_reademaildata",
+      "target": "src_main_java_es_jastxz_micro_tracking_service_emailservice_java_string",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/es/jastxz/micro_tracking/service/EmailService.java",
+      "source_location": "L64",
+      "weight": 1.0,
+      "context": "parameter_type",
+      "source": "service_emailservice_emailservice_sendemail",
+      "target": "src_main_java_es_jastxz_micro_tracking_service_emailservice_java_string",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "src/test/java/es/jastxz/micro_tracking/EmailServiceLocalTest.java",
+      "source_location": "L33",
+      "weight": 1.0,
+      "source": "micro_tracking_emailservicelocaltest_emailservicelocaltest_main",
+      "target": "service_emailservice_emailservice_sendemail"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "src/main/java/es/jastxz/micro_tracking/service/TrackingService.java",
+      "source_location": "L40",
+      "weight": 1.0,
+      "source": "service_trackingservice_trackingservice_processvisit",
+      "target": "service_emailservice_emailservice_sendemail"
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/es/jastxz/micro_tracking/service/TrackingService.java",
+      "source_location": "L11",
+      "weight": 1.0,
+      "source": "service_trackingservice",
+      "target": "async",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/es/jastxz/micro_tracking/service/TrackingService.java",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "service_trackingservice",
+      "target": "ipinforesponse",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/es/jastxz/micro_tracking/service/TrackingService.java",
+      "source_location": "L15",
+      "weight": 1.0,
+      "source": "service_trackingservice",
+      "target": "service_trackingservice_trackingservice",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/es/jastxz/micro_tracking/service/TrackingService.java",
+      "source_location": "L4",
+      "weight": 1.0,
+      "source": "service_trackingservice",
+      "target": "src_main_java_es_jastxz_micro_tracking_service_trackingservice_java_timedata",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/es/jastxz/micro_tracking/service/TrackingService.java",
+      "source_location": "L5",
+      "weight": 1.0,
+      "source": "service_trackingservice",
+      "target": "src_main_java_es_jastxz_micro_tracking_service_trackingservice_java_visitordata",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/es/jastxz/micro_tracking/service/TrackingService.java",
+      "source_location": "L72",
+      "weight": 1.0,
+      "source": "service_trackingservice_trackingservice",
+      "target": "service_trackingservice_trackingservice_buildemailbody",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/es/jastxz/micro_tracking/service/TrackingService.java",
+      "source_location": "L49",
+      "weight": 1.0,
+      "source": "service_trackingservice_trackingservice",
+      "target": "service_trackingservice_trackingservice_getipinfo",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/es/jastxz/micro_tracking/service/TrackingService.java",
+      "source_location": "L113",
+      "weight": 1.0,
+      "source": "service_trackingservice_trackingservice",
+      "target": "service_trackingservice_trackingservice_parseuseragent",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/es/jastxz/micro_tracking/service/TrackingService.java",
+      "source_location": "L43",
+      "weight": 1.0,
+      "source": "service_trackingservice_trackingservice",
+      "target": "service_trackingservice_trackingservice_processtimespent",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/es/jastxz/micro_tracking/service/TrackingService.java",
+      "source_location": "L27",
+      "weight": 1.0,
+      "source": "service_trackingservice_trackingservice",
+      "target": "service_trackingservice_trackingservice_processvisit",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/es/jastxz/micro_tracking/service/TrackingService.java",
+      "source_location": "L22",
+      "weight": 1.0,
+      "source": "service_trackingservice_trackingservice",
+      "target": "service_trackingservice_trackingservice_trackingservice",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/es/jastxz/micro_tracking/service/TrackingService.java",
+      "source_location": "L22",
+      "weight": 1.0,
+      "context": "parameter_type",
+      "source": "service_trackingservice_trackingservice_trackingservice",
+      "target": "emailservice",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/test/java/es/jastxz/micro_tracking/EmailServiceLocalTest.java",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "micro_tracking_emailservicelocaltest",
+      "target": "emailservice",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/es/jastxz/micro_tracking/service/TrackingService.java",
+      "source_location": "L27",
+      "weight": 1.0,
+      "context": "attribute",
+      "source": "service_trackingservice_trackingservice_processvisit",
+      "target": "async",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/es/jastxz/micro_tracking/service/TrackingService.java",
+      "source_location": "L37",
+      "weight": 1.0,
+      "source": "service_trackingservice_trackingservice_processvisit",
+      "target": "service_trackingservice_trackingservice_buildemailbody",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/es/jastxz/micro_tracking/service/TrackingService.java",
+      "source_location": "L30",
+      "weight": 1.0,
+      "source": "service_trackingservice_trackingservice_processvisit",
+      "target": "service_trackingservice_trackingservice_getipinfo",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/es/jastxz/micro_tracking/service/TrackingService.java",
+      "source_location": "L27",
+      "weight": 1.0,
+      "context": "parameter_type",
+      "source": "service_trackingservice_trackingservice_processvisit",
+      "target": "src_main_java_es_jastxz_micro_tracking_service_trackingservice_java_string",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/es/jastxz/micro_tracking/service/TrackingService.java",
+      "source_location": "L27",
+      "weight": 1.0,
+      "context": "parameter_type",
+      "source": "service_trackingservice_trackingservice_processvisit",
+      "target": "src_main_java_es_jastxz_micro_tracking_service_trackingservice_java_visitordata",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/es/jastxz/micro_tracking/service/TrackingService.java",
+      "source_location": "L72",
+      "weight": 1.0,
+      "context": "parameter_type",
+      "source": "service_trackingservice_trackingservice_buildemailbody",
+      "target": "src_main_java_es_jastxz_micro_tracking_service_trackingservice_java_visitordata",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/es/jastxz/micro_tracking/service/TrackingService.java",
+      "source_location": "L72",
+      "weight": 1.0,
+      "context": "return_type",
+      "source": "service_trackingservice_trackingservice_buildemailbody",
+      "target": "src_main_java_es_jastxz_micro_tracking_service_trackingservice_java_string",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/es/jastxz/micro_tracking/service/TrackingService.java",
+      "source_location": "L49",
+      "weight": 1.0,
+      "context": "parameter_type",
+      "source": "service_trackingservice_trackingservice_getipinfo",
+      "target": "src_main_java_es_jastxz_micro_tracking_service_trackingservice_java_string",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/es/jastxz/micro_tracking/service/TrackingService.java",
+      "source_location": "L113",
+      "weight": 1.0,
+      "context": "return_type",
+      "source": "service_trackingservice_trackingservice_parseuseragent",
+      "target": "src_main_java_es_jastxz_micro_tracking_service_trackingservice_java_string",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/es/jastxz/micro_tracking/service/TrackingService.java",
+      "source_location": "L43",
+      "weight": 1.0,
+      "context": "attribute",
+      "source": "service_trackingservice_trackingservice_processtimespent",
+      "target": "async",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/es/jastxz/micro_tracking/service/TrackingService.java",
+      "source_location": "L43",
+      "weight": 1.0,
+      "context": "parameter_type",
+      "source": "service_trackingservice_trackingservice_processtimespent",
+      "target": "src_main_java_es_jastxz_micro_tracking_service_trackingservice_java_timedata",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/es/jastxz/micro_tracking/service/TrackingService.java",
+      "source_location": "L49",
+      "weight": 1.0,
+      "context": "return_type",
+      "source": "service_trackingservice_trackingservice_getipinfo",
+      "target": "ipinforesponse",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/es/jastxz/micro_tracking/service/TrackingService.java",
+      "source_location": "L72",
+      "weight": 1.0,
+      "context": "parameter_type",
+      "source": "service_trackingservice_trackingservice_buildemailbody",
+      "target": "ipinforesponse",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main/java/es/jastxz/micro_tracking/service/TrackingService.java",
+      "source_location": "L95",
+      "weight": 1.0,
+      "source": "service_trackingservice_trackingservice_buildemailbody",
+      "target": "service_trackingservice_trackingservice_parseuseragent",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/test/java/es/jastxz/micro_tracking/EmailServiceLocalTest.java",
+      "source_location": "L15",
+      "weight": 1.0,
+      "source": "micro_tracking_emailservicelocaltest",
+      "target": "micro_tracking_emailservicelocaltest_emailservicelocaltest",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/test/java/es/jastxz/micro_tracking/EmailServiceLocalTest.java",
+      "source_location": "L17",
+      "weight": 1.0,
+      "source": "micro_tracking_emailservicelocaltest_emailservicelocaltest",
+      "target": "micro_tracking_emailservicelocaltest_emailservicelocaltest_main",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/test/java/es/jastxz/micro_tracking/EmailServiceLocalTest.java",
+      "source_location": "L17",
+      "weight": 1.0,
+      "context": "parameter_type",
+      "source": "micro_tracking_emailservicelocaltest_emailservicelocaltest_main",
+      "target": "src_test_java_es_jastxz_micro_tracking_emailservicelocaltest_java_string",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/test/java/es/jastxz/micro_tracking/MicroTrackingApplicationTests.java",
+      "source_location": "L6",
+      "weight": 1.0,
+      "source": "micro_tracking_microtrackingapplicationtests",
+      "target": "micro_tracking_microtrackingapplicationtests_microtrackingapplicationtests",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "src/test/java/es/jastxz/micro_tracking/MicroTrackingApplicationTests.java",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "micro_tracking_microtrackingapplicationtests",
+      "target": "test",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "src/test/java/es/jastxz/micro_tracking/MicroTrackingApplicationTests.java",
+      "source_location": "L9",
+      "weight": 1.0,
+      "source": "micro_tracking_microtrackingapplicationtests_microtrackingapplicationtests",
+      "target": "micro_tracking_microtrackingapplicationtests_microtrackingapplicationtests_contextloads",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "source_file": "src/test/java/es/jastxz/micro_tracking/MicroTrackingApplicationTests.java",
+      "source_location": "L9",
+      "weight": 1.0,
+      "context": "attribute",
+      "source": "micro_tracking_microtrackingapplicationtests_microtrackingapplicationtests_contextloads",
+      "target": "test",
+      "confidence_score": 1.0
+    }
+  ],
+  "hyperedges": [],
+  "built_at_commit": "ddb9ebd1bd1198218f561636431434ecdba43ae9"
+}

@@ -25,3 +25,28 @@ replay_pid*
 
 /target
 .emailData
+
+
+# graphify
+graphify-out/cache/
+graphify-out/manifest.json
+graphify-out/cost.json
+graphify-out/.graphify_*
+
+# maven / spring boot
+.mvn/timing.properties
+.mvn/wrapper/maven-wrapper.jar
+logs/
+
+# ide
+.idea/
+*.iml
+.vscode/
+
+# env
+.env
+.env.local
+
+# os
+.DS_Store
+Thumbs.db
